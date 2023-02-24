@@ -1,0 +1,127 @@
+<div id="page-wrapper">
+  <div id="page">
+  <!-- Header -->
+    <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
+      <div class="section layout-container clearfix">
+        <div id="topmenu">{{ page.top_menu }}</div>
+      </div>
+	  <div id="top1"></div>
+      <div class="container">
+      <div id="branding-area">
+      {{ page.branding }}
+      </div>
+      <div id="apply-buttons">
+      {{ page.apply_buttons }}
+      </div>
+      </div>
+      <div class="menu-wrapper">
+      <div class="container">
+      <nav id="navigation" class="menu">
+      {{ page.primary_menu }}
+      {{ page.search_area }}
+      </nav>
+      </div>
+      </div>
+    </header>
+<div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+    {% if page.highlighted %}
+      <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+          {{ page.highlighted }}
+        </aside>
+      </div>
+    {% endif %}
+    {% if is_front %}
+    <h1 id="home-title">Welcome to Robins Financial Credit Union</h1>
+     <a id="main-content" tabindex="-1"></a>
+     <div id="frontpageArea" class="container">
+       <div class="row homeButtons">
+          <div class="homeButton">{{ page.home_button_one }}</div>
+          <div class="homeButton">{{ page.home_button_two }}</div>
+          <div class="homeButton">{{ page.home_button_three }}</div>
+       </div>
+       <div class="row homeButtons">
+          <div class="homeButton">{{ page.home_button_four }}</div>
+          <div class="homeButton">{{ page.home_button_five }}</div>
+          <div class="homeButton">{{ page.home_button_six }}</div>
+       </div>
+       <div class="row homeButtons">
+          <div class="homeButton">{{ page.home_button_seven }}</div>
+          <div class="homeButton">{{ page.home_button_eight }}</div>
+          <div class="homeButton">{{ page.home_button_nine }}</div>
+       </div>
+     </div>
+     <div clas="row newsPromos">
+         <div class="newsRow">
+           {{ page.news_area }}
+         </div>
+         <div class="promoRow">
+           {{ page.promo_area }}
+         </div>
+     </div>
+    </div>
+    <div id="hp-buttons--mobile" class="container">{{ page.mobile_buttons }}</div>
+    {% endif %}
+    {% if not is_front %}
+      {% if page.sidebar_two_one %}
+        <main id="content" class="column main-content double-sidebar" role="main">
+      {% elseif page.sidebar_second %}
+        <main id="content" class="column main-content one-sidebar" role="main">
+      {% else %}
+        <main id="content" class="column main-content no-sidebar" role="main">
+      {% endif%}	
+        <a id="main-content" tabindex="-1"></a>
+        {% if page.sidebar_first %}
+          <div id="sidebar-first" class="column sidebar">
+            <aside class="section" role="complementary">
+              {{ page.sidebar_first }}
+            </aside>
+          </div>
+        {% endif %}
+        <section class="page-content">
+            {{ page.content }}
+        </section>
+        </main>
+        {% if page.sidebar_second %}
+          <div id="sidebar-second" class="column sidebar">
+            <aside class="section" role="complementary">
+              {{ page.sidebar_second }}
+            </aside>
+          </div>
+        {% endif %}
+        {% if page.sidebar_two_one %}
+          <div id="sidebar-second" class="column sidebar">
+            <aside class="section" role="complementary">
+              <div class="two-columns">
+                <div class="column">{{ page.sidebar_two_one }}</div>
+                <div class="column">{{ page.sidebar_two_two }}</div>
+              </div>
+            </aside>
+          </div>
+        {% endif %}
+        </div>		
+    {% endif %}
+   <div class="container">
+        <div class="row promos">
+          <div class="col col-3-sm">{{ page.promo_first }}</div>
+          <div class="col col-3-sm">{{ page.promo_second }}</div>
+          <div class="col col-3-sm">{{ page.promo_third }}</div>
+          <div class="col col-3-sm">{{ page.promo_fourth }}</div>
+        </div>
+        </div>
+        </div>
+<footer class="site-footer">
+      <div id="footer-menu">
+      <div class="container">
+      {{ page.footer_menu }}
+      </div>
+      </div>
+      <div id="footer-bottom">
+      <div class="container">
+      {{ page.footer }}
+      </div>
+      </div>
+    </footer>
+</div>
+</div>

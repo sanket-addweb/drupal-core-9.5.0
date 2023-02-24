@@ -1,0 +1,22 @@
+uuid: 2ac06ffa-39e2-45a6-86ed-cdc462323cff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - robins
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: robins_breadcrumbs
+theme: robins
+region: top_menu
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

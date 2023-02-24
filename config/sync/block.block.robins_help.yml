@@ -1,0 +1,22 @@
+uuid: fc4e49fd-1748-4eeb-b305-e8b0c2aca59c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - robins
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: robins_help
+theme: robins
+region: top_menu
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

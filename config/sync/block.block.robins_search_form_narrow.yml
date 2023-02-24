@@ -1,0 +1,23 @@
+uuid: 9c6b9c96-e845-4618-ac29-59be92b2c070
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - robins
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: robins_search_form_narrow
+theme: robins
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,149 @@
+.view-employee-directory .views-row {margin:5px 0;}
+#top1 {background: #8d8d8d;border-bottom: 3px solid #00529b;text-align: right;color: #ffffff;font-size: 14px;line-height: 35px;min-height: 35px;}
+#header h2 {margin:0;}
+h2 {margin:5px 0;}
+p {margin: 0 0 15px 0;line-height:24px;}
+#branding-area, #apply-buttons {margin:20px 0;}
+#main {max-width:100%;}
+div#apply-buttons a.button {background:#ebebeb;position:relative;z-index:1000;}
+/*menu fix*/
+ul.sf-menu li:hover > ul, ul.sf-menu li.sfHover > ul {left: -40px;top: 5.6em;}
+.sf-accordion-toggle {position:absolute;top:-4em;left:0;}
+#superfish-main-toggle {font-size:24px;}
+.region-primary-menu #superfish-main-accordion a {background:#ebebeb;font-size:16px;color:#444;font-weight:500;}
+.region-primary-menu #superfish-main-accordion a:hover, .region-primary-menu #superfish-main-accordion a:focus {background:#ebebeb;}
+#navigation a:hover {background: rgba(251,251,251, 1) !important;}
+#navigation ul > li > a {background: rgba(255, 255, 255, 1) !important;text-align:center;}
+.region-primary-menu .menu a {background: rgba(255, 255, 255, 1) !important;}
+#navigation ul ul li a {
+    color: #999;
+    font-size: 13px;
+    line-height: 16px;
+    padding:0;
+    border: 0;
+}
+label, legend {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    border: 1px solid #e0e0e0;
+    padding: 8px 9px;
+    outline: none;
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    max-width: 100%;
+    display: block;
+    background: #fff;
+    -webkit-box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+}
+div.view-filters {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+div.view.view-employee-directory.view-id-employee_directory.view-display-id-page_1 {
+    padding: 40px;
+    margin-top: 20px;
+    background: #FCFCFC;
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+}
+
+div#apply-buttons a.button {margin:15px 10px 0 2px;}
+div#apply-buttons a.button .ext {display:none}
+body.path-frontpage .list-1 li, .list-2 li, .list-3 li, .list-4 li {margin:0;}
+div.view.view-employee-directory div.position {
+    padding-left: 5px;
+}
+.views-exposed-form .views-exposed-widget {
+    padding: .5em 1em 0 0;
+}
+.page-title {font-size:24px;line-height:30px;}
+.node__content {margin-top:0;}
+#navigation ul ul li a:hover {
+    color: #999;
+    background-color: #fbfbfb;
+    border: 0 !important;
+}
+#navigation ul ul li {
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+	padding:10px 15px;
+	background:#fff;
+}
+#navigation ul ul li:hover {background:#fbfbfb !important;border-bottom:0 !important;}
+#navigation ul ul li:hover a {border-bottom:0;border-color:#e8e8e8;}
+#navigation ul ul li:first-child {
+    border-top: 0;
+}
+#navigation ul ul li:last-child {
+border-bottom:1px solid #e8e8e8;}
+
+.view-front-page-banners {margin-top:30px;border:1px solid #ebebeb; border-radius:5px;}
+.sidebar p {float:left;}
+.sidebar ul {float:left;width:100%;}
+.categories ul li:before, .sidebar ul.menu li:before, .sidebar .item-list li:before {content: ">";font-size: 13px;color: #ccc;margin: 3px 9px 0 0; float: left;}
+.categories a, .sidebar ul.menu li a, .sidebar .item-list li a {color: #888;display: block;line-height: 19px;padding: 3px 0;}
+.categories a:hover, .sidebar ul.menu li a:hover, .sidebar .item-list li a:hover {color: #a0a0a0;}
+
+.text-formatted ul, .text-formatted ol {margin:0; padding: 0;}
+ul {list-style:none outside;}
+h2 {font-weight:400;font-size:24px;line-height:30px;}
+#block-frontpagelogin {float:right;}
+#block-newstuff {font-size:14px;}
+#search-block-form {z-index:999;}
+
+.view-employee-directory {font-size:14px;}
+.position {margin-top:10px;}
+
+.homeButtons .homeButton { width: 28%;float: left;margin-right: 4%;}
+.homeButtons .homeButton:last-child {margin-right:0;}
+.buttons { line-height: 24px; font-size: 24px; font-weight: 300; padding:20px 15px; border-radius: 10px; color: #00529b !important; border: 1px solid #ccc; background: #f1f1f1; margin: 20px 0 0 0;}
+.buttons img { padding-right:10px; float:left; margin-top:-12px; }
+div.lists {font-size: 18px; font-weight: 300; padding: 20px 20px; border-radius: 10px; color: #00529b; border: 3px solid #337ec1; background: #f1f1f1; margin: 40px 0 0 0;}
+div.lists li {line-height:1.5em;}
+div.list-header {    border-bottom: 1px solid #ccc;padding-bottom: 20px;margin-bottom: 20px;font-weight: 600;}
+div.list-header img { float:left;margin-top: -12px;
+    padding-right: 10px; }
+
+div.newsRow {width:48%;float:left;margin-right:4%;}
+div.region-news-area {padding: 0 20px 20px;border-radius: 10px;border: 1px solid #00529b;background: #337ec1;margin: 40px 0 0 0;color: #ffffff !important;}
+#block-views-block-robins-financial-news-block-1 h2 {color: #fff;background: url(/sites/default/files/icons/news.png) no-repeat;padding: 5px 0 5px 55px;font-weight: 900;line-height:28px;}
+div.region-news-area .view-content {padding-left:55px;}
+div.region-news-area .views-field.views-field-title a {display: block;padding:0;text-align:left;background:none;box-shadow:none;border-radius: 0;line-height:24px;font-size:14px;font-weight: 300;color: #fff;min-height: 0;transition:none;}
+div.promoRow{float:left;width:48%;overflow:hidden;}
+
+.site-footer #footer-menu {background-color: #337ec1;line-height:24px;}
+.site-footer #footer-menu p {margin:5px 0; padding:5px 0;font-size:14px; line-height:24px;}
+.site-footer #footer-bottom {background-color: #00529b;}
+#branding-area, #apply-buttons {float:left;}
+@media only screen and (max-width: 767px) {
+.homeButtons .homeButton {width:100%;margin-right:0;float:none;}
+div.promoRow, div.newsRow {float:none;width:100%;margin-right:0;}
+#main {width: 300px;}
+#branding-area {margin:20px; float:none;}
+}
+
+@media only screen and (max-width: 999px) and (min-width: 767px) {
+#branding-area {max-width:38%;}
+#apply-buttons {max-width:62%;width:62%;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+#main {
+    width: 420px;
+}
+}
+
+@media (min-width: 1000px) {
+div#branding-area, div#apply-buttons {width: 49.75%;}
+}

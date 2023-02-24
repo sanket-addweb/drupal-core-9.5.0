@@ -1,0 +1,11 @@
+robins:
+  css:
+    theme:
+      css/custom.css: {}
+      css/intranet.css: {}
+      css/embeds.css: {}
+  js:
+    js/embeds.js: {}
+    js/robins.js: {}
+  dependencies:
+    - core/jquery.ui.tabs

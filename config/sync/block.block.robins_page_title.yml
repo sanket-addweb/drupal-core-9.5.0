@@ -1,0 +1,20 @@
+uuid: 10c3f2b5-28e8-4c9b-9848-7c5e527ec8de
+langcode: en
+status: true
+dependencies:
+  theme:
+    - robins
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: robins_page_title
+theme: robins
+region: top_menu
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

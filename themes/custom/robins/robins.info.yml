@@ -1,0 +1,54 @@
+# 
+# Bartik subtheme for Robins
+# 
+name: Robins
+type: theme
+base theme: bartik
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+version: 1
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+
+libraries:
+    - robins/robins
+regions:
+  top_menu: 'Top Menu'
+  primary_menu: 'Main Menu'
+  search_area: 'Search Area'
+  branding: 'Branding'
+  mobile_buttons: 'Mobile Apply Buttons'
+  apply_buttons: 'Apply Buttons'
+  slider: 'Slider'
+  highlighted: 'Highlighted'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  sidebar_two_one: 'Left side for double sidebar'
+  sidebar_two_two: 'Right side for double sidebar'
+  login: 'Frontpage Login'
+  home_button_one: 'Home Button One'
+  home_button_two: 'Home Button Two'
+  home_button_three: 'Home Button Three'
+  home_button_four: 'Home Button Four'
+  home_button_five: 'Home Button Five'
+  home_button_six: 'Home Button Six'
+  home_button_seven: 'Home Button Seven'
+  home_button_eight: 'Home Button Eight'
+  home_button_nine: 'Home Button Nine'
+  news_area: 'News Area'
+  promo_area: 'Promo Area'
+  banner: 'Frontpage Banner Area'
+  rates_area: 'Frontpage Rates Area'
+  rates_button: 'Frontpage Rates Button'
+  content: 'Content'
+  home_recent_work: 'Home Recent Work'
+  clients_logo: 'Clients Logo'
+  help: 'Help'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+  promo_first: 'Promo First Column'
+  promo_second: 'Promo Second Column'
+  promo_third: 'Promo Third Column'
+  promo_fourth: 'Promo Fourth Column'
+  footer: 'Footer'
+  footer_menu: 'Footer Menu'
+  hidden: 'Easier than removing blocks'

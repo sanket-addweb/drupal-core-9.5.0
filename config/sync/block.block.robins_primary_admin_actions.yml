@@ -1,0 +1,20 @@
+uuid: 6ba8739c-afb7-4104-af46-7961e129704d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - robins
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: robins_primary_admin_actions
+theme: robins
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
